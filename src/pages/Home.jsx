@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import dashboard from "../styles/Dashboard.module.css";
+import MainContent from "../components/MainContent";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
           <div></div>
         </Link>
       </header>
+      <MainContent />
       <Outlet />
       <footer>
         <h3>SUPORTE</h3>
