@@ -1,6 +1,8 @@
 .menu,
 .menu header,
-.menu div,
+.menu .div,
+.menu .main,
+.menu .mesa,
 .menu footer {
   display: flex;
 }
@@ -12,24 +14,25 @@
   justify-content: space-between;
 }
 
-.menu header {
+.menu header,
+.menu footer {
   width: 100%;
   background-color: #333;
+  color: #fff;
   padding: 1em;
   align-items: center;
   justify-content: space-between;
+}
+
+.menu footer {
+  justify-content: center;
 }
 
 .menu img {
   background-color: #fff;
 }
 
-.menu header a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.menu div {
+.menu .div {
   width: 2.5em;
   height: 2.5em;
   padding: 1em;
@@ -41,11 +44,22 @@
   justify-content: center;
 }
 
-.menu footer {
+.menu .main {
   width: 100%;
-  background-color: #333;
+  height: 90%;
+  padding: 1em;
+  justify-content: space-around;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.main .mesa {
+  background-color: #076318;
   color: #fff;
-  padding: 0.5em;
+  height: 5em;
+  width: 5em;
+  border: 1px solid #333;
+  border-radius: 10px;
   align-items: center;
   justify-content: center;
 }

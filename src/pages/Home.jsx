@@ -1,20 +1,16 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import dashboard from "../styles/Dashboard.module.css";
-import MainContent from "../components/MainContent";
+import Dashboard from "../components/Dashboard";
 
 const Home = () => {
   return (
     <main className={dashboard.menu}>
       <header>
         <img src="/toggle.png" alt="menu" />
-        <Link to="/produtos">
-          <h1>PRODUTOS</h1>
-        </Link>
-        <Link to="/historico">
-          <div></div>
-        </Link>
+        <h1>PRODUTOS</h1>
+        <div className={dashboard.div}></div>
       </header>
-      <MainContent />
+      <Dashboard />
       <Outlet />
       <footer>
         <h3>SUPORTE</h3>
