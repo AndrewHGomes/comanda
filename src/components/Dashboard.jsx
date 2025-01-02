@@ -14,6 +14,28 @@ const Dashboard = () => {
       <Mesas ident={6} />
       <Mesas ident={7} />
       <Mesas ident={8} />
+      <Mesas ident={9} />
+      <Mesas ident={10} />
+      <Mesas ident={11} />
+      <Mesas ident={12} />
+      <Mesas ident={13} />
+      <Mesas ident={14} />
+      <Mesas ident={15} />
+      <Mesas ident={16} />
+      <Mesas ident={17} />
+      <Mesas ident={18} />
+      <Mesas ident={19} />
+      <Mesas ident={20} />
+      <Mesas ident={21} />
+      <Mesas ident={22} />
+      <Mesas ident={23} />
+      <Mesas ident={24} />
+      <Mesas ident={25} />
+      <Mesas ident={26} />
+      <Mesas ident={27} />
+      <Mesas ident={28} />
+      <Mesas ident={29} />
+      <Mesas ident={30} />
     </section>
   );
 };
