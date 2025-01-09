@@ -4,7 +4,7 @@ import dashboard from "../styles/Dashboard.module.css";
 
 const Dashboard = () => {
   return (
-    <section className={dashboard.main}>
+    <section className={dashboard.container}>
       <Mesas ident="P" />
       <Mesas ident={1} />
       <Mesas ident={2} />

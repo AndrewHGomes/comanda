@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-import dashboard from "../styles/Dashboard.module.css";
+import mesas from "../styles/Mesas.module.css";
 
 const Mesas = ({ ident }) => {
-  return <div className={dashboard.mesa}>{ident}</div>;
+  return <div className={mesas.mesa}>{ident}</div>;
 };
 
 export default Mesas;

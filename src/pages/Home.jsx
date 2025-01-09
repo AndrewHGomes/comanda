@@ -1,21 +1,18 @@
-import { Outlet } from "react-router-dom";
-import dashboard from "../styles/Dashboard.module.css";
 import Dashboard from "../components/Dashboard";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+
+import dashboard from "../styles/Home.module.css";
 
 const Home = () => {
   return (
-    <main className={dashboard.menu}>
-      <header>
-        <img src="/toggle.png" alt="menu" />
-        <h1>PRODUTOS</h1>
-        <div className={dashboard.div}></div>
-      </header>
-      <Dashboard />
-      <Outlet />
-      <footer>
-        <h3>SUPORTE</h3>
-      </footer>
-    </main>
+    <>
+      <Header />
+      <main className={dashboard.main}>
+        <Dashboard />
+      </main>
+      <Footer />
+    </>
   );
 };
 

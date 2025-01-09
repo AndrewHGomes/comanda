@@ -1,0 +1,20 @@
+.mesa {
+  height: 80px;
+  width: 80px;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: #483d8b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 3px 3px 6px #333;
+  transition: 0.4s;
+}
+
+.mesa:hover {
+  transform: scale(1.05);
+}

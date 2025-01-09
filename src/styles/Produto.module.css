@@ -1,0 +1,8 @@
+.content {
+  width: 40%;
+  height: 10vh;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px #000;
+}
