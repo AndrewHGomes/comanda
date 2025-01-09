@@ -1,4 +1,4 @@
-import Mesas from "./Mesas";
+import Mesas from "../components/Mesas";
 
 import dashboard from "../styles/Dashboard.module.css";
 
