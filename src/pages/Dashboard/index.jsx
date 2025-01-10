@@ -1,6 +1,6 @@
-import Mesas from "../components/Mesas";
+import Mesas from "../../components/Mesas";
 
-import dashboard from "../styles/Dashboard.module.css";
+import dashboard from "./Dashboard.module.css";
 
 const Dashboard = () => {
   return (

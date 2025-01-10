@@ -1,5 +1,5 @@
-import Produto from "../components/Produto";
-import produtos from "../styles/Produtos.module.css";
+import Produto from "../../components/Produto";
+import produtos from "./Produtos.module.css";
 
 const Produtos = () => {
   return (

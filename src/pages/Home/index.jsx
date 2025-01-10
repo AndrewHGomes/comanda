@@ -1,7 +1,7 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../../components/Header/index.jsx";
+import Footer from "../../components/Footer/index.jsx";
 
-import dashboard from "../styles/Home.module.css";
+import dashboard from "./Home.module.css";
 import { Outlet } from "react-router-dom";
 
 const Home = () => {

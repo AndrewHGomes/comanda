@@ -8,3 +8,7 @@
   box-shadow: 3px 3px 6px #000;
   cursor: pointer;
 }
+
+.content:hover {
+  background-color: #444;
+}

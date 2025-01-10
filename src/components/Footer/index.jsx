@@ -1,4 +1,4 @@
-import rodape from "../styles/Footer.module.css";
+import rodape from "./Footer.module.css";
 
 const Footer = () => {
   return (

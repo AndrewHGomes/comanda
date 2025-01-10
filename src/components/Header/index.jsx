@@ -1,4 +1,4 @@
-import titulo from "../styles/Header.module.css";
+import titulo from "./Header.module.css";
 
 const Header = () => {
   return (

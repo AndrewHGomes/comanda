@@ -1,4 +1,4 @@
-import main from "../styles/Login.module.css";
+import main from "./Login.module.css";
 
 const Login = () => {
   const empresa = "D'affari Sistemas de Informação";
