@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import main from "./Login.module.css";
 
 const Login = () => {
@@ -13,7 +14,9 @@ const Login = () => {
             </option>
           </select>
           <input type="password" id="senha" placeholder="SENHA" />
-          <button id="enter">ENTRAR</button>
+          <Link to="/">
+            <button id="enter">ENTRAR</button>
+          </Link>
         </form>
         <div>
           <img src="./daffari.jpeg" alt="" />

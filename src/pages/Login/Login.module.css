@@ -22,6 +22,7 @@
 
 .content form select,
 .content form input,
+.content a,
 .content form button {
   text-align: center;
   width: 100%;
@@ -34,17 +35,21 @@
   letter-spacing: 0.1em;
 }
 
+.content a {
+  text-decoration: none;
+}
+
 .content form button {
   background-color: #076318;
   border: 1px solid #076318;
   color: #fff;
   font-weight: bold;
   cursor: pointer;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .content form button:hover {
-  background-color: #07641850;
+  background-color: #07631835;
 }
 
 .content div {
@@ -54,8 +59,13 @@
 
 .content div img {
   width: 20%;
+  border: 1px solid #000;
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
-  box-shadow: 3px 3px 3px #111;
-  transition: 0.4s;
+  box-shadow: 3px 3px 6px #000;
+  transition: 0.3s;
+}
+
+.content div img:hover {
+  box-shadow: 5px 5px 10px #000;
 }
