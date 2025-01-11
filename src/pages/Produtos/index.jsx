@@ -91,11 +91,13 @@ const todosProdutos = [
 
 const Produtos = () => {
   return (
-    <section className={produtos.container}>
-      {todosProdutos.map(({ id, img, nome }) => (
-        <Produto key={id} imgProduto={img} nomeProduto={nome} />
-      ))}
-    </section>
+    <>
+      <section className={produtos.container}>
+        {todosProdutos.map(({ id, img, nome }) => (
+          <Produto key={id} imgProduto={img} nomeProduto={nome} />
+        ))}
+      </section>
+    </>
   );
 };
 

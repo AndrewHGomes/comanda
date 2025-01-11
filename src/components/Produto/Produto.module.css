@@ -1,9 +1,8 @@
 .content {
-  padding: 1em;
+  width: 40%;
+  padding: 0.5em;
   background-color: #333;
   color: #fff;
-  width: 40%;
-  height: 10vh;
   border: 1px solid #000;
   border-radius: 5px;
   box-shadow: 3px 3px 6px #000;
@@ -11,7 +10,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 }
 
 .content:hover {
@@ -20,9 +18,5 @@
 }
 
 .content img {
-  width: 30px;
-}
-
-.content div {
-  font-size: 1.1em;
+  width: 20px;
 }
