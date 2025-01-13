@@ -1,42 +1,31 @@
-.header {
-  width: 100%;
-  padding: 1em;
-  background-color: #333;
-  border-bottom: 1px solid #000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 2px 4px 8px #000;
-}
-
 .header img {
   background-color: #fff;
-  box-shadow: 3px 3px 6px #000;
 }
 
 .header a {
   text-decoration: none;
+  color: #fff;
 }
 
-.header a h2 {
-  color: #fff;
+.header a:hover {
+  color: #eee;
+  text-shadow: 4px 4px 8px #000;
+}
+
+.header h2 {
   font-weight: normal;
 }
 
-.header h2:hover {
-  text-shadow: 3px 3px 3px #000;
-  color: #eee;
-}
-
 .header div {
-  height: 40px;
-  width: 40px;
   background-color: #f00;
+  width: 3em;
+  height: 3em;
   border: 1px solid #000;
   border-radius: 100%;
   box-shadow: 3px 3px 6px #000;
 }
 
 .header div:hover {
+  box-shadow: 4px 4px 8px #000;
   background-color: #c00;
 }

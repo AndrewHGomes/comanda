@@ -40,7 +40,7 @@ const todosProdutos = [
   {
     id: 5,
     img: img5,
-    nome: "Água e sucos",
+    nome: "Água e Sucos",
   },
   {
     id: 6,
