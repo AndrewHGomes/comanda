@@ -2,7 +2,15 @@
 import mesas from "./Mesas.module.css";
 
 const Mesas = ({ ident }) => {
-  return <div className={mesas.mesa}>{ident}</div>;
+  const handleColorChange = () => {
+    //
+  };
+
+  return (
+    <div className={mesas.mesa} onClick={handleColorChange}>
+      {ident}
+    </div>
+  );
 };
 
 export default Mesas;
